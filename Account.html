@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+    <head>
+        <tittle></tittle>
+    <meta charset = "utf-8">
+    <link rel = "stylesheet" href = "style.css">
+    <script src = 'LoginFrom.js'></script>
+    
+    </head>
+    <body>
+        <div class ="topnav">
+            <ul>
+                <a class= "active" href="home page.html">home</a>
+                <a class="active" href="index.html">Account</a>
+                <a class="active" href="Product.html">Product</a>
+            </ul>
+        </div>
+        <!--Account Page-->
+        <div class="account -page">
+            <div class="container">
+            <div class="row">
+                <div class="col-2">
+                    <div class="col-2">
+                    </div>
+                    <div class="col-2">
+                        <div class="form-container">
+                            <div class="form-btn">
+                                <span onclick="login()">Login</span>
+                                <span onclick="register()">Register</span>
+                                <hr id="Indicator">
+                            </div>
+                            <form id="LoginForm">
+                                <input type="text" placeholder="Username">
+                                <input type="password" placeholder="Password">
+                                <button type="submit" onclick="move()" class="btn">Login</button>
+                                <p class="loader"></p>
+                                <a href="">Forget Password</a>
+
+                            </form>
+                            <form id="RegForm">
+                                <input type="text" placeholder="Username">
+                                <input type="email" placeholder="Email">
+                                <input type="password" placeholder="Password">
+                                <div id="myProgress">
+                                    <div id="myBar">10%</div>
+                                </div>
+                                <button type=" " class="btn">Register</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+        </div>
+    </body>
+</html>
