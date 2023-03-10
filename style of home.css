@@ -40,7 +40,7 @@ body {
     box-shadow:0 0 20px 0px rgba(0, 0, 0, 0.1);
     overflow: hidden;
   }
-.Ye-1 h3 {
+.Ye-2 {
 
     width: 100px;
     border: none;
@@ -50,6 +50,18 @@ body {
     transform: translateX(100px);
     transition: transform 1s;
     
+}
+
+.Ye-1 h3 {
+background-color: #fff;
+width: 300px;
+height: 100px;
+position: relative;
+text-align: center;
+padding: 20px 0;
+margin: auto;
+box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
+overflow: hidden;
 }
 
 
